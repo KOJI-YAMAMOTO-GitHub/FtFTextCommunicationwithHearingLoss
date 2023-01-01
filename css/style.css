@@ -4,7 +4,7 @@ body{
 
 .formstyle {
   width: 100%;    /* 横は100% */
-  height: 90vh;  /* 縦は100vh */
+  height: 85vh;  /* 縦は100vh */
   box-sizing: border-box; 
   font-size:48pt;
   resize: none;
@@ -19,6 +19,6 @@ body{
 
  .clearbtn,.colorbtn{
   width: 80%;    /* 横は100% */
-  font-size:20pt;
+  font-size:35pt;
   margin-bottom: 2px;
  }
