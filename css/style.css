@@ -1,0 +1,24 @@
+body{
+  background-color:black;
+}
+
+.formstyle {
+  width: 100%;    /* 横は100% */
+  height: 90vh;  /* 縦は100vh */
+  box-sizing: border-box; 
+  font-size:48pt;
+  resize: none;
+  text-align : center;
+  background-color:black;
+  color: aliceblue;
+}
+
+.center { 
+  text-align : center;
+ }
+
+ .clearbtn,.colorbtn{
+  width: 80%;    /* 横は100% */
+  font-size:20pt;
+  margin-bottom: 2px;
+ }

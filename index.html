@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>難聴者との対面テキストコミュニケーション</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body id="main">
+        <div class="center">
+            <textarea id="form2" class="formstyle" placeholder="難聴の方と対面で会話をする際に利用することを目的としています"></textarea>
+            <input type="button" class="clearbtn" value="クリア" onclick="clearTextarea()" />
+            <br>
+            <input type="button" class="colorbtn" value="背景白へ変更" onclick="changeColor()" />
+        </div>
+
+        <script type="text/javascript">
+            function clearTextarea() {
+                var textareaForm = document.getElementById("form2");
+                textareaForm.value = '';
+            }
+            function changeColor() {
+                var elem1 = document.getElementById("main");
+                elem1.style.backgroundColor = "#FFFFFF";
+                var elem2 = document.getElementById("form2");
+                elem2.style.backgroundColor = "#FFFFFF";
+                elem2.style.color = "#000000";
+            }
+        </script>
+    </body>
+
+</html>
