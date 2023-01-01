@@ -6,6 +6,7 @@ body{
   width: 100%;    /* 横は100% */
   height: 85vh;  /* 縦は100vh */
   box-sizing: border-box; 
+  border:none;
   font-size:48pt;
   resize: none;
   text-align : center;
